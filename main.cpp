@@ -6,10 +6,10 @@ int health = 100;
 int choice;
 string name;
 
-main(){ 
+int main(){ 
 std::cout << "Hello world! What is your name? ";
 std::cin >> name;
-std::cout << "____________________________________"; << std::endl << "Hello " << name <<", welcome to cathaven.\n";
+std::cout << "____________________________________" << std::endl << "Hello " << name <<", welcome to cathaven.\n";
 health = 100;
 std::cout << "your health is currently at " << health << ".\n";
 std::cout << "What would you like to do?" << std::endl << "Options: \n1. Fight\n2. Run\n3. Heal\n";
@@ -38,4 +38,6 @@ if (choice == 3){
     }
 else {
     std::cout << "Invalid choice. Please try again.\n";
-}}}}
+}}}
+return 0;
+}
